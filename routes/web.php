@@ -22,4 +22,5 @@ Route::get('/', function () {
 // Matches The "/admin/dashboard" URL
 Route::prefix('admin')->group(function () {
     Route::get('dashboard', 'AuthController@showDashboard');
+    Route::get('adduser', 'AuthController@showAddUser');
 });

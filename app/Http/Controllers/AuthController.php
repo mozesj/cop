@@ -10,4 +10,9 @@ class AuthController extends Controller
     {
     	return view('pages.dashboard');
     }
+
+    public function showAddUser()
+    {
+    	return view('pages.adduser');
+    }
 }
