@@ -98,7 +98,7 @@
 <h3 class="grey">Services</h3>
    <div class="row">
    <div class="col-md-4 col-sm-6 ">  
-<img src="assets/img/soma.jpeg">
+<img src="img/soma.jpeg">
 <div >
  <h4>Department of Correction</h4>
 <br/>

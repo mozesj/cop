@@ -18,3 +18,8 @@ Route::get('/login', function () {
 Route::get('/', function () {
     return view('home');
 });
+
+// Matches The "/admin/dashboard" URL
+Route::prefix('admin')->group(function () {
+    Route::get('dashboard', 'AuthController@showDashboard');
+});

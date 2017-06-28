@@ -1,10 +1,10 @@
 <title>ecp</title>
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/animate.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/doc.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/bootstrap-theme.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/animate.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/doc.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/bootstrap-theme.css') }}">
 
     <!-- End Bootstrap -->
 
@@ -14,16 +14,16 @@
     <!-- End Js-->
 
     <!-- Main Style -->
-    <link rel="stylesheet" href="{{ asset('assets/css/main.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/main.css') }}">
 
     <!-- End Main Style  -->
 
     <!-- Responsive Style -->
-   <link rel="stylesheet" href="{{ asset('assets/css/responsive.css') }}">
+   <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
    <!-- End Responsive Style -->
 
     <!--Fonts-->
-    <link rel="stylesheet" href="{{ asset('assets/css/font-awesome.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/font-awesome.min.css') }}">
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
     <!--End Fonts-->
 
@@ -38,7 +38,7 @@
         </button>
 </div> 
 <a class="logo" href="./">
-    <img src="assets/img/ecp.png"  alt="ecp" style="height: 70px; width: 80px;">
+    <img src="img/ecp.png"  alt="ecp" style="height: 70px; width: 80px;">
   </a>
 <!-- Collect the nav links, forms, and other content for toggling -->
        <div class="collapse navbar-collapse" id="cssmenu">
@@ -52,6 +52,6 @@
             </ul>
         </div><!-- /.navbar-collapse -->
 </nav>
-    <script src="{{ asset('assets/js/custom.js') }}"></script>
-	<script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
-	<script src="{{ asset('assets/js/main.js') }}"></script>
+    <script src="{{ asset('js/custom.js') }}"></script>
+	<script src="{{ asset('js/bootstrap.min.js') }}"></script>
+	<script src="{{ asset('js/main.js') }}"></script>
