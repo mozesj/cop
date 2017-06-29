@@ -101,11 +101,19 @@
 <h3 class="grey">Services</h3>
    <div class="row">
    <div class="col-md-4 col-sm-6 ">  
+<<<<<<< HEAD
 
 
 
 <img src="img/soma.jpeg">
 
+=======
+<<<<<<< HEAD
+<img src="assets/bootsrap/img/soma.jpeg">
+=======
+<img src="img/soma.jpeg">
+>>>>>>> 1b9d0456ad6ae57cfdb0c4fa2ed4f01149cbb791
+>>>>>>> pius254-master
 <div >
  <h4>Department of Correction</h4>
 <br/>
