@@ -22,22 +22,12 @@ Route::get('/', function () {
     return view('home');
 });
 
-<<<<<<< HEAD
 Route::get('member', function () {
     return view('member.panel');
-});
-
-Route::get('administrator', function () {
-    return view('administrator.panel');
 });
 
 Route::get('officer', function () {
     return view('officer.panel');
 });
-=======
-// Matches The "/admin/dashboard" URL
-Route::prefix('admin')->group(function () {
-    Route::get('dashboard', 'AuthController@showDashboard');
-    Route::get('adduser', 'AuthController@showAddUser');
-});
->>>>>>> 1b9d0456ad6ae57cfdb0c4fa2ed4f01149cbb791
+
+
