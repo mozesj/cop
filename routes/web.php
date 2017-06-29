@@ -14,7 +14,22 @@
 Route::get('/login', function () {
     return view('login');
 });
+Route::get('/register', function () {
+    return view('register');
+});
 
 Route::get('/', function () {
     return view('home');
+});
+
+Route::get('member', function () {
+    return view('member.panel');
+});
+
+Route::get('administrator', function () {
+    return view('administrator.panel');
+});
+
+Route::get('officer', function () {
+    return view('officer.panel');
 });

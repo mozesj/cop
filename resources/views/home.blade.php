@@ -1,5 +1,8 @@
-@extends('layout')
+@extends('partials.topbar')
+@extends('partials.navbar')
 @yield('content')
+
+
 <!-- intro -->
 <div class="/">
  <div id="cd-intro-background">
@@ -98,7 +101,7 @@
 <h3 class="grey">Services</h3>
    <div class="row">
    <div class="col-md-4 col-sm-6 ">  
-<img src="assets/img/soma.jpeg">
+<img src="assets/bootsrap/img/soma.jpeg">
 <div >
  <h4>Department of Correction</h4>
 <br/>
@@ -213,3 +216,4 @@
                 </div> <!-- /row of widgets -->
             </div>
         </div>
+        

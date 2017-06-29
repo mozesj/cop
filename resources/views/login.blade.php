@@ -1,4 +1,4 @@
-@extends('layout')
+@extends('partials/topbar')
 
 @yield('content')
 
@@ -12,12 +12,12 @@
                        
             <div class="form-section ">
                 <div class="form-group ">
-                    <label for="email_or_mob">E-Mail Address or Mobile Number</label>
+                    <label for="email_or_mob">E-Mail or Mobile Number</label>
                     <input class="form-control " placeholder="Enter yourmail@example.com or 070000000" name="email_or_id" type="text" id="email_or_mob">
                 </div>
              <div class="form-group  ">
                     <label for="password">Password</label>
-                    <input class="form-control " placeholder="Password" name="password" type="password" value="" id="password">
+                    <input class="form-control " placeholder="Enter Password" name="password" type="password" value="" id="password">
               </div>
                                     
               <div class="col-md-6 col-md-offset-1">
@@ -40,3 +40,4 @@
         </div>
    </div>
                    
+ 
