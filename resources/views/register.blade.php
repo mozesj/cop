@@ -317,19 +317,25 @@
           </div> 
                             </div>
               </div>
-         
-          <div class="form-group">
-            <label class="control-label">Street Name</label>
+               <div class="form-bottom">
+                            <div class="row">
+                               <div class="form-group col-md-6 col-sm-6">
+             <label class="control-label">Street Name</label>
             <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter street or road or avenue"  />
           </div>
-          <div class="form-group">
-            <label class="control-label">Postal Address</label>
+          <div class="form-group col-md-6 col-sm-6">
+             <label class="control-label">Postal Address</label>
             <textarea required="required" class="form-control" placeholder="Enter your postal address e.g P.O BOX 1000-0100 Kenya" ></textarea>
-          </div>
+          </div> 
+                            </div>
+              </div>
+         
+        
+         
            <div class="form-bottom">
                             <div class="row">
                                <div class="form-group col-md-6 col-sm-6">
-            <label class="control-label">Primary Phone Numbers</label>
+            <label class="control-label">Primary Phone Number</label>
             <input  maxlength="100" type="text" required="required" class="form-control" placeholder="Enter Primary Phone Numbers"  />
           </div>
           <div class="form-group col-md-6 col-sm-6">
@@ -448,15 +454,28 @@
     </div>
            
          <div class="form-group col-md-6 col-sm-6">
-            <label class="control-label">Household Name</label>
+            <label class="control-label">Household / Building Name</label>
             <input maxlength="100" type="text" required="required" class="form-control" placeholder="Enter Household Name" />
           </div>
           </div>
           </div>
-          <div class="form-group">
+            <div class="form-bottom">
+                            <div class="row">
+                               <div class="form-group col-md-6 col-sm-6">
+           <label class="control-label">Building Type</label>
+            <select class="form-control">
+        <option value="select" selected>--select--</option>
+        <option value="">Bungallow</option>
+        <option value="">Storey</option>
+        
+        </select>
+          </div>
+          <div class="form-group col-md-6 col-sm-6">
             <label class="control-label">Property Number</label>
             <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter property or Household number"  />
-          </div>
+          </div> 
+                            </div>
+              </div>
           <div class="form-bottom">
                             <div class="row">
          <div class="form-group col-md-6 col-sm-6">

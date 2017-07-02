@@ -25,8 +25,7 @@
             </h1>
             <!-- You can dynamically generate breadcrumbs here -->
             <ol class="breadcrumb">
-                <li><a href="#"><i class="fa fa-home"></i>Home</a></li>
-                <li class="active">Dashboard</li>
+                <li><a href="#"><i class="fa fa-home" ></i>Dashboard</a></li>
             </ol>
         </section>
 
@@ -50,7 +49,7 @@
     </div><!-- /.content-wrapper -->
 
     <!-- Footer -->
-    @include('officer.footer')
+    @include('layouts.footer')
    
     @include('includes.control-sidebar')
 </div><!-- ./wrapper -->

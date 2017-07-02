@@ -72,7 +72,13 @@ body {
 font-size: 15px;
 background: #F2F4F5;
 }
-
+.jumbotron h2 {
+color: #fa5950;
+font-size: 27px;
+}
+.grey {
+color:#777777;
+}
 /*************************
 *******Home CSS******
 **************************/
@@ -83,7 +89,7 @@ background: #F2F4F5;
 }
 #cd-intro-background {
     padding-top:70px;
-    height:600px;
+    height:550px;
     background: url("../img/intro.jpg") no-repeat center center;
     background-size: cover; 
     z-index:  -1;
@@ -180,4 +186,48 @@ background: #F2F4F5;
     font-size: 12px;
     line-height: 1.428571429;
     border-radius: 15px;
+}
+.hline {
+  border-bottom: 2px solid #384452;
+}
+
+.hline-w {
+  border-bottom: 2px solid #ffffff;
+  margin-bottom: 25px;
+}
+.navbar {
+  min-height: 70px;
+  padding-top: 10px;
+  margin-bottom: 0px;
+}
+
+.navbar-brand {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+
+}
+
+.navbar-header .navbar-brand {
+  color: default;
+}
+.navbar-default .navbar-nav > li > a {
+  color: black;
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav > li > a:hover
+ {
+  color: blue;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default 
+.navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: default;
+  background-color: transparent;
+}
+
+.navbar-default {
+  background-color: default;
+  border-color: transparent;
 }

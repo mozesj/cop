@@ -20,11 +20,11 @@
           </a>
           <ul class="treeview-menu">
            <li><a href="#"><i class="fa fa-bell-o"></i>Alerts</a></li>
-            <li><a href="pages/forms/message.html"><i class="fa fa-envelope"></i>Message Board</a></li>
+            <li><a href="forms/message.blade.php"><i class="fa fa-envelope"></i>Message Board</a></li>
           </ul>
         </li>
          <li>
-          <a href="pages/forms/reminder.html">
+          <a href="forms/reminder.blade.php">
             <i class="fa fa-clock-o"></i> <span>Reminder</span>
             <span class="pull-right-container">
               
@@ -99,7 +99,7 @@
           </ul>
         </li>
         <li>
-          <a href="pages/forms/contact.html">
+          <a href="forms/contact.blade.php">
             <i class="fa fa-clock-o"></i> <span>Diary  Book</span>
             <span class="pull-right-container">
               
@@ -171,7 +171,7 @@
         </div>
       </form>
       <!-- /.search form -->
-            <li><a href="pages/forms/appeal.html"><i class="fa fa-circle-o"></i>Make Appeal</a></li>
+            <li><a href="forms/appeal.blade.php"><i class="fa fa-circle-o"></i>Make Appeal</a></li>
            
             
           </ul>
@@ -185,16 +185,15 @@
           </a>
           <ul class="treeview-menu">
          
-           <li><a href="pages/forms/item.html"><i class="fa fa-power-off"></i>  Item</a></li>
-            <li><a href="pages/forms/missing.html"><i class="fa fa-power-off"></i> Missing Person</a></li>
-            <li><a href="pages/forms/suspect.html"><i class="fa fa-power-off"></i>  Suspect</a></li>
-            <li><a href="pages/forms/wanted.html"><i class="fa fa-power-off"></i>  Most Wanted</a></li>
+           <li><a href="#"><i class="fa fa-power-off"></i>  Item</a></li>
+            <li><a href="#"><i class="fa fa-power-off"></i> Missing Person</a></li>
+            <li><a href="#"><i class="fa fa-power-off"></i>  Most Wanted</a></li>
            
             
           </ul>
         </li>
         <li>
-          <a href="pages/forms/contribution.html">
+          <a href="forms/contribution.blade.php">
             <i class="fa fa-briefcase"></i> <span>Contributions</span>
             <span class="pull-right-container">
               
@@ -220,8 +219,8 @@
         </div>
       </form>
       <!-- /.search form -->
-            <li><a href="pages/forms/membership.html"><i class="fa fa-circle-o"></i> Create Cluster</a></li>
-            <li><a href="#"><i class="fa fa-circle-o"></i> Add Members</a></li>
+           
+            <li><a href="#"><i class="fa fa-circle-o"></i> Join Members</a></li>
 
            
             

@@ -34,10 +34,9 @@
            <div class="col-sm-6 col-md-3">
             <!-- Service-Block-1 Item Starts -->
             <div class="service-item wow fadeInUpQuick animated" data-wow-delay=".5s">
-              <div class="icon-wrapper">
-                <i class="icon-layers pulse-shrink">
-                </i>
-              </div>
+              <div class="centered-words">
+         
+      </div>
               <h2>
                Efficiency
               </h2>
@@ -73,7 +72,7 @@
               <h2>
                 Alerts
               </h2>
-              <p>Receive sms and email alerts to confirm <br>membership  status.</p>
+              <p>Receive sms and email alerts to confirm <br> status.</p>
               
             </div>
             <!-- Service-Block-1 Item Ends -->
@@ -101,22 +100,122 @@
 <h3 class="grey">Services</h3>
    <div class="row">
    <div class="col-md-4 col-sm-6 ">  
-
-
-
-
-<img src="img/soma.jpeg">
-
-
+ <img src="{{asset('assets/bootstrap/img/soma.jpeg')}}" class="img-responsive"  alt="Image">
 <div >
  <h4>Department of Correction</h4>
 <br/>
 <p><a href="/login" class="btn btn-default">Get Service </a></p>
  </div>
  </div>
+ <div class="col-md-4 col-sm-6 ">  
+ <img src="{{asset('assets/bootstrap/img/logo.png')}}" class="img-responsive"  alt="Image">
+<div >
+ <h4>Department of Fire</h4>
+<br/>
+<p><a href="#" class="btn btn-default">Get Service </a></p>
+ </div>
+ </div>
+ <div class="col-md-4 col-sm-6 ">  
+ <img src="{{asset('assets/bootstrap/img/taxi.jpg')}}" class="img-responsive"  alt="Image">
+<div >
+ <h4>eSafari</h4>
+<br/>
+<p><a href="#" class="btn btn-default">Get Service </a></p>
+ </div>
+ </div>
  </div>
 </div>
 <!-- end services-->
+
+        <div id="resources">
+           <div class="jumbotron text-center" >  
+            <h3>Resources</h3><br>
+            <div class="row">
+                <div class="col-sm-3">
+                   <h4><i class="fa fa-shopping-cart"></i> Appeal</h4>
+                <div class="hline"></div><br>
+                <div class="well">
+                      <div class="well" >
+                      <img src="{{asset('assets/dist/img/user2-160x160.jpg')}}" class="img-responsive"  alt="Image">
+                        <p>Name : Agweng'</p>
+                        <p>Age : 15yrs</p>
+                        <p>Appeal Category: Medical</p>
+                        <p>Condition Category: </p>
+                        <p>Condition Name : </p>
+                        <p>Description : </p>
+                        <p>Amount: Ksh. 5 Million</p>
+                    </div>
+            </div>
+         <a href="/login" class="btn btn-primary">More Medical Appeals ...</a> 
+        
+                </div>
+                <div class="col-sm-3"> 
+                    
+         <div class="event-title">
+         <h4><i class="fa fa-share-alt"></i> Lost & Found</h4>
+      </div>
+        <div class="hline"></div><br>
+      <div class="well">
+                      <div class="well" >
+                        <img src="{{asset('assets/dist/img/user2-160x160.jpg')}}" class="img-responsive"  alt="Image">
+                        <p>Name : Agweng'</p>
+                        <p>Age : 15yrs</p>
+                        <p>Status: Missing</p>
+                        <p>Gender: Female</p>
+                        <p>Area Name : Runda</p>
+                        <p>Description : </p>
+                        <p>Contact: 0722 145 098</p>
+                    </div>
+            </div>
+        
+         <a href="/login" class="btn btn-primary">More Lost & Found ...</a>  
+ 
+                </div>
+                <div class="col-sm-3"> 
+                    
+         <div class="event-title">
+         <h4><i class="fa fa-bullhorn"></i> Notices </h4>
+      </div>
+        <div class="hline"></div><br>
+      <div class="well">
+                      <div class="well" >
+                        <p>Theme : 7TH  ANNUAL INTERNATIONAL CONFERENCE</p>
+                        <p>Description : RESEARCH, INNOVATION AND KNOWLEDGE TRANSLATION FOR   COMMUNITY TRANSFORMATION</p>
+                        <p>Date : 21/09/2017</p>
+                        <p>Venue : KABARAK UNIVERSITY MAIN CAMPUS</p>
+                        <p>Time : 08:00 AM - 5:00 PM</p>
+                        <p>Cost : Free </p>
+                    </div>
+            </div>
+        
+         <a href="/login" class="btn btn-primary">More Notices ...</a>  
+ 
+                </div>
+                <div class="col-sm-3">
+                    
+    <div class="event-title">
+         <h4><i class="fa fa-calendar"></i> Events </h4>
+      </div>
+        <div class="hline"></div><br>
+         <div class="well">
+                      <div class="well" >
+                        <p>Theme : 7TH  ANNUAL INTERNATIONAL CONFERENCE</p>
+                        <p>Description : RESEARCH, INNOVATION AND KNOWLEDGE TRANSLATION FOR   COMMUNITY TRANSFORMATION</p>
+                        <p>Date : 21/09/2017</p>
+                        <p>Venue : KABARAK UNIVERSITY MAIN CAMPUS</p>
+                        <p>Time : 08:00 AM - 5:00 PM</p>
+                        <p>Cost : Free </p>
+                    </div>
+            </div>
+       
+        <br>
+         <a href="/login" class="btn btn-primary">More Events ...</a>  
+  
+                </div>
+            </div>
+        </div>
+        </div>
+<!-- end resources-->
 <!-- contact us-->
 <div id="contact">
    <div class="footer1">
@@ -211,7 +310,6 @@
                     <div class="col-md-6 widget">
                         <div class="widget-body">
                             <p class="text-right">
-                                <a href="/">Home</a> |
                                 <a href="#">FAQ</a> |
                                 <a href="#">Privacy Policy</a> |
                                 <a href="#">Terms of use</a>
