@@ -30,3 +30,7 @@ Route::get('officer', function () {
     return view('officer.panel');
 });
 
+Route::get('administrator', function () {
+    return view('administrator.panel');
+});
+

@@ -96,35 +96,7 @@
 </div>
 </div>
 <!-- services-->
-<div id="services" >
-<h3 class="grey">Services</h3>
-   <div class="row">
-   <div class="col-md-4 col-sm-6 ">  
- <img src="{{asset('assets/bootstrap/img/soma.jpeg')}}" class="img-responsive"  alt="Image">
-<div >
- <h4>Department of Correction</h4>
-<br/>
-<p><a href="/login" class="btn btn-default">Get Service </a></p>
- </div>
- </div>
- <div class="col-md-4 col-sm-6 ">  
- <img src="{{asset('assets/bootstrap/img/logo.png')}}" class="img-responsive"  alt="Image">
-<div >
- <h4>Department of Fire</h4>
-<br/>
-<p><a href="#" class="btn btn-default">Get Service </a></p>
- </div>
- </div>
- <div class="col-md-4 col-sm-6 ">  
- <img src="{{asset('assets/bootstrap/img/taxi.jpg')}}" class="img-responsive"  alt="Image">
-<div >
- <h4>eSafari</h4>
-<br/>
-<p><a href="#" class="btn btn-default">Get Service </a></p>
- </div>
- </div>
- </div>
-</div>
+
 <!-- end services-->
 
         <div id="resources">
@@ -224,10 +196,10 @@
                 <div class="row">
                     
                     <div class="col-md-3 widget">
-                        <h1 class="widget-title">Contact</h1>
+                      <h1 class="widget-title">Contact</h1>
                         <div class="widget-body">
                             <address>
-                            <i class="fa fa-phone fa-3x sr-contact"></i> : +254 (0) 776 - 557 - 716<br><br>
+                            <i class="fa fa-phone fa-3x sr-contact"></i> : +254 (0) 704 - 207 - 449<br><br>
                                <i class="fa fa-envelope-o fa-3x sr-contact"></i> : <a href="mailto:#">fredmancini85@gmail.com</a><br>
                                
                                 
@@ -237,9 +209,9 @@
                             <address>
                             Machini Technologies,<br>
                             Lakehub - Ground Floor,<br>
-                            Kisumu - Nairobi Road,<br>
-                            P.O Box 12 - 40101,<br>
-                            Ahero - Kenya<br>
+                            Neville Road,<br>
+                            P.O Box 12 - 0000,<br>
+                            Nakuru - Kenya<br>
                           <a href="http://www.machinitech.co.ke/"> www.machinitech.co.ke</a>
                             </address>
                             </div>
@@ -320,4 +292,4 @@
                 </div> <!-- /row of widgets -->
             </div>
         </div>
-        
+        </div>

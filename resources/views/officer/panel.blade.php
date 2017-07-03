@@ -1,12 +1,14 @@
-@include('partials.layout')
+
 @yield('content')
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>ecp | Officer</title>
+    <title>{{$title or 'ecp'}}</title>
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
-    
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+@include('partials.topbar')
 </head>
 <body class="skin-blue ">
 <div class="wrapper">
@@ -51,7 +53,7 @@
     <!-- Footer -->
     @include('layouts.footer')
    
-    @include('includes.control-sidebar')
+  
 </div><!-- ./wrapper -->
 @include('includes.js')
 @yield('js')

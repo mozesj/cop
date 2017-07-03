@@ -6,17 +6,15 @@
     <meta charset="UTF-8">
     <title>{{$title or 'ecp'}}</title>
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
-    <!-- CSRF Token -->
-    <meta name="csrf-token" content="{{ csrf_token() }}">
-@include('partials.topbar')
+     @include('partials.topbar')
 </head>
 <body class="skin-blue ">
 <div class="wrapper">
 
  <!-- Main Header -->
-    @include('member.header')
+    @include('administrator.header')
 <!-- Sidebar -->
-    @include('member.sidebar')
+    @include('administrator.sidebar')
 
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
