@@ -330,8 +330,6 @@
                             </div>
               </div>
          
-        
-         
            <div class="form-bottom">
                             <div class="row">
                                <div class="form-group col-md-6 col-sm-6">

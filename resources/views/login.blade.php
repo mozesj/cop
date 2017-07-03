@@ -1,4 +1,4 @@
-@extends('partials/topbar')
+@extends('partials.topbar')
 
 @yield('content')
 

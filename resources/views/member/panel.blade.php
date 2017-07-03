@@ -1,4 +1,4 @@
-@include('partials.layout')
+@include('partials.topbar')
 @yield('content')
 <!DOCTYPE html>
 <html lang="en">
