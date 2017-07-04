@@ -16,6 +16,8 @@
     <!-- Main Style -->
     <link rel="stylesheet" href="{{ asset('assets/bootstrap/css/main.css') }}">
 
+    <link rel="stylesheet" href="{{ asset('assets/bootstrap/css/animate.css') }}">
+
     <!-- End Main Style  -->
 
     <!-- Font Awesome -->
@@ -44,7 +46,9 @@
 
 
    <!-- Js -->
-<script src="https://code.jquery.com/jquery.js"></script>
-<script src="{{ asset('assets/bootstrap/css/bootstrap.min.js') }}"></script>
+
+<script src="{{ asset('assets/bootstrap/js/jquery.js') }}"></script>
+<script src="{{ asset('assets/bootstrap/js/bootstrap.min.js') }}"></script>
+<script src="{{ asset('assets/bootstrap/js/smoothscroll.js') }}"></script>
     <!-- End Js-->
  
