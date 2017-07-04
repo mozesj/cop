@@ -35,7 +35,7 @@
                         <img src="{{ asset('assets/dist/img/user2-160x160.jpg') }}"  class="img-circle" alt="User Image">
                       </div>
                       <h4>
-                        Fred Mancini
+                        Mose
                         <small><i class="fa fa-clock-o"></i> 5 mins</small>
                       </h4>
                       <p>Why not buy a new awesome theme?</p>
@@ -259,7 +259,7 @@
               <!-- Menu Footer-->
               <li class="user-footer">
                 <div class="pull-left">
-                  <a href="#" class="btn btn-default btn-flat">Profile</a>
+                  <a href="#" class="btn btn-default btn-flat">Account</a>
                 </div>
                 <div class="pull-right">
                   <a href="{{url('/logout')}}" class="btn btn-default btn-flat">Sign out</a>

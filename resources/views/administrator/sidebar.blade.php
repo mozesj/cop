@@ -20,8 +20,22 @@
           </a>
           <ul class="treeview-menu">
            
-            <li><a href="pages/forms/user.html"><i class="fa fa-circle-o"></i> Add Users</a></li>
+            <li><a href="forms/adduser.blade.php"><i class="fa fa-circle-o"></i> Add Users</a></li>
              
+          </ul>
+        </li>
+        <li class="treeview">
+          <a href="#">
+            <i class="fa fa-group"></i> <span>County</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+           
+             <li><a href="forms/county.html"><i class="fa fa-circle-o"></i>County</a></li>
+             <li><a href="forms/subcounty.html"><i class="fa fa-circle-o"></i>Sub County</a></li>
+             <li><a href="forms/constituency.html"><i class="fa fa-circle-o"></i>Constituency</a></li>
           </ul>
         </li>
         <li class="treeview">
@@ -50,7 +64,7 @@
         </li>   
          <li class="treeview">
           <a href="#">
-            <i class="fa fa-group"></i> <span>Reffering Agencies</span>
+            <i class="fa fa-group"></i> <span>Agencies</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
@@ -71,7 +85,17 @@
             
           </ul>
         </li>
-              
+             <li class="treeview">
+          <a href="#">
+            <i class="fa fa-group"></i> <span>Report</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            
+          </ul>
+        </li>  
         </ul>
     </section>
     <!-- /.sidebar -->
