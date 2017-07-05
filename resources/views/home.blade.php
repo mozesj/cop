@@ -64,7 +64,32 @@
        
 </div>
 <!-- services-->
-
+<div id="services">
+<h3 > Services</h3>
+   <div class="row">
+   <div class="col-md-4 col-sm-6 ">  
+<img src="assets/bootstrap/img/taxi.jpg">
+<div >
+<h4>coming soon</h4>
+<br/>
+<p><a href="index.php/login" class="btn btn-default">Get Service </a></p>
+ </div>
+ </div>
+   <div class="col-md-4 col-sm-6 ">  
+<img src="assets/bootstrap/img/taxi.jpg">
+<div class="e-order-caption">
+<h4>coming soon</h4><br/>
+<p><a href="index.php/login" class="btn btn-default">Get Service </a></p>
+ </div></div>
+ 
+ <div class="col-md-4 col-sm-6 ">  
+<img src="assets/bootstrap/img/taxi.jpg" >
+<div >
+ <h4>coming soon</h4>
+ <br/>
+<p><a href="index.php/login" class="btn btn-default">Get Service </a></p>
+ </div></div></div>
+</div>
 <!-- end services-->
 
         <div id="resources">
@@ -186,7 +211,7 @@
                         <h1 class="widget-title">Send a message</h1>
                         <div class="widget-body">
                             <div class="status alert alert-success" style="display: none"></div>
-                            <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="sendemail.php">
+                            <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="sendemail.blade.php">
                                 <div class="form-group">
                                     <input type="text" name="name" class="form-control" required="required" 
                                     value=" Name *" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
