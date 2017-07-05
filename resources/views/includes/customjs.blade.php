@@ -1,2 +1,2 @@
 
-<script src="{{ asset('/resources/assets/js/userspage.js') }}"></script>
+<script src="{{ asset('assets/js/userspage.js') }}"></script>

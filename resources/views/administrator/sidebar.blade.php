@@ -1,3 +1,4 @@
+@extends('partials.topbar')
 @yield('content')
 <!-- Left side column. contains the logo and sidebar -->
 <aside class="main-sidebar">
@@ -26,7 +27,7 @@
         </li>
         <li class="treeview">
           <a href="#">
-            <i class="fa fa-group"></i> <span>County</span>
+            <i class="fa fa-group"></i> <span>County </span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
