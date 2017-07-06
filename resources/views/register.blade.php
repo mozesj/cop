@@ -344,7 +344,7 @@
                             </div>
               </div>
           <div class="form-group">
-            <label class="control-label">Website </label>
+            <label class="control-label">Website URL</label>
             <input maxlength="100" type="text" required="required" class="form-control" placeholder="Enter Website " />
           </div>
           <button class="btn btn-success nextBtn btn-block" type="button" >Continue</button>

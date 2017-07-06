@@ -48,7 +48,19 @@
           </a>
           <ul class="treeview-menu">
            
-             <li><a href="pages/forms/courts.html"><i class="fa fa-circle-o"></i> Add Courts</a></li>
+             <li><a href="pages/forms/courts.html"><i class="fa fa-circle-o"></i> Add Court</a></li>
+          </ul>
+        </li>
+         <li class="treeview">
+          <a href="#">
+            <i class="fa fa-group"></i> <span>Probation Office</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+           
+             <li><a href="#"><i class="fa fa-circle-o"></i> Add Office</a></li>
           </ul>
         </li>
         <li class="treeview">
@@ -60,7 +72,7 @@
           </a>
           <ul class="treeview-menu">
           
-             <li><a href="pages/forms/stations.html"><i class="fa fa-circle-o"></i> Add Police Station</a></li>
+             <li><a href="pages/forms/stations.html"><i class="fa fa-circle-o"></i> Add Station</a></li>
           </ul>
         </li>   
          <li class="treeview">
