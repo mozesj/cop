@@ -31,10 +31,10 @@
                         <a class="page-scroll" href="#contact">Contact Us</a>
                     </li>
                      <li>
-                        <a class="page-scroll" href="/login">Login</a>
+                        <a class="page-scroll" href="index.php/login">Login</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="/register">Register</a>
+                        <a class="page-scroll" href="index.php/register">Register</a>
                     </li>
                     
                 </ul>

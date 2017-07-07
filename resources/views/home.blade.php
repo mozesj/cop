@@ -33,7 +33,7 @@
  <div class="text-center">
                <div class="col-sm-6 col-md-3">
               <h2>
-               Efficiency
+               Efficient
               </h2>
               <p>
               Its easy and fast.
@@ -112,7 +112,7 @@
                         <p>Amount: Ksh. 5 Million</p>
                     </div>
             </div>
-         <a href="/login" class="btn btn-primary">More Appeals ...</a> 
+         <a href="index.php/login" class="btn btn-primary">More Appeals ...</a> 
         
                 </div>
                 <div class="col-sm-4"> 
@@ -134,7 +134,7 @@
                     </div>
             </div>
         
-         <a href="/login" class="btn btn-primary">More Lost & Found ...</a>  
+         <a href="index.php/login" class="btn btn-primary">More Lost & Found ...</a>  
  
                 </div>
                 
@@ -156,7 +156,7 @@
             </div>
        
         <br>
-         <a href="/login" class="btn btn-primary">More Events ...</a>  
+         <a href="index.php/login" class="btn btn-primary">More Events ...</a>  
   
                 </div>
             </div>
@@ -171,7 +171,7 @@
                 <div class="row">
                     
                     <div class="col-md-3 widget">
-                      <h1 class="widget-title">Contact</h1>
+                      <h1 class="widget-title">CONTACT</h1>
                         <div class="widget-body">
                             <address>
                             <i class="fa fa-phone fa-3x sr-contact"></i> :  +254 (0) 704 - 207 - 449<br><br>
@@ -180,7 +180,7 @@
                                 
                             </address>
                             <div class="contact-address">
-                            <h1 class="widget-title">Address</h1>
+                            <h1 class="widget-title">ADDRESS</h1>
                             <address>
                             Machini Technologies,<br>
                             Lakehub - Ground Floor,<br>
@@ -195,7 +195,7 @@
                     </div>
 
                     <div class="col-md-3 widget">
-                        <h1 class="widget-title">Links</h1>
+                        <h1 class="widget-title">QUICK LINKS</h1>
                         <div class="widget-body">
                             <p class="text">
                             <ul>
@@ -222,7 +222,7 @@
                                     value=" Name *" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" name="name" class="form-control" required="required" value="Subject *"
+                                    <input type="text"  name="name" class="form-control" required="required" value="Subject *"
                                     onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
                                 </div>
                                 
@@ -256,8 +256,8 @@
                                 <a href="https://twitter.com/"><i class="fa fa-twitter fa-2"></i></a>
                                 <a href="http://googleplus.com//"><i class="fa fa-google-plus fa-2"></i></a>
                                 <a href="http://youtube.com//"><i class="fa fa-youtube fa-2"></i></a> 
-                                <!--a href="http://instagram.com//"><i class="fa fa-instagram fa-2"></i></a>
-                                <a href="http://linkedin.com//"><i class="fa fa-linkedin-square fa-2"></i></a-->
+                                <!--a href="http://instagram.com//"><i class="fa fa-instagram fa-2"></i></a-->
+                                <a href="http://linkedin.com//"><i class="fa fa-linkedin-square fa-2"></i></a>
             
                               </div>
                               </div> 
