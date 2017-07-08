@@ -37,3 +37,7 @@ Route::get('administrator', function () {
 Route::get('faq', function () {
     return view('faq');
 });
+
+Route::get('help', function () {
+    return view('help');
+});

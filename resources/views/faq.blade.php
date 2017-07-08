@@ -18,31 +18,96 @@
         <span id="content">		
           <section class="home">
                 <div class="container">
+
                     <div class="row">
                         <div class="col-md-4">
                             <div class="text-block">
-                                <h4>Frequently Asked Questions</h4>
+                                <h4>Frequently Asked Questions (FAQ's)</h4>
                             </div>
                         </div>
-                        <div class="col-md-8">
 
-                          <div class="text-block">
-                              <h5>What is ecp ? </h5>
-                              <p>ecp stand for electronic Community Police</p>
-                          </div>
-                           <div class="text-block">
-                              <h5>How do I create an ecp account?</h5>
-                              <p> You can sign up for an account or through an agent at Huduma Centre </p>
-                          </div> 
-                           <div class="text-block">
-                              <h5>What ecp DOES ?</h5>
-                              <p> Coming Soon </p>
-                          </div>
-                           <div class="text-block">
-                              <h5>What ecp DOES NOT do ?</h5>
-                              <p> Coming Soon </p>
-                          </div>   
-                                    
+                        <div class="col-md-8">
+                   <div class="panel-group" id="accordion">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion1" href="#collapseOne">
+                       
+                        What is ecp?
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapseOne" class="panel-collapse collapse">
+                    <div class="panel-body">
+                     ecp stand for electronic Community Police.
+                    </div>
+                  </div>
+                </div>
+                 <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion1" href="#collapseTwo">
+                       
+                        What is e-Community Police?
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapseTwo" class="panel-collapse collapse">
+                    <div class="panel-body">
+                     ecp is platform that connects community members,faith-based ,community-based organizations (CBOs),Non-Governmental Organizations (NGOs) and Government Policing Agencies(GPAs)to share information and empower the community at large.
+                    </div>
+                  </div>
+                </div>
+                    <div class="panel-group" id="accordion">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion1" href="#collapseThree">
+                       
+                       How do I create an ecp account?
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapseThree" class="panel-collapse collapse">
+                    <div class="panel-body">
+                    You can sign up for an account or through an agent at Huduma Centre.
+                    </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion2" href="#collapseFour">
+                      
+                        What e-Community Police DOES ?
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapseFour" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      I didn't think so, until I started doing this Web Development course.
+                    </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion3" href="#collapseFive">
+                        
+                        What e-Community Police DOES NOT do ?
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapseFive" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      
+                    </div>
+                  </div>
+                </div>
+                
+                
+              </div>
+                 
                         </div>
 
                     </div>
@@ -54,31 +119,5 @@
         <!-- END CONTAINER -->	
 
 </div> <!-- end main container -->
-<footer class="container-fluid ">
-        <div class="row">
-          <div class="col-md-4">
-            <p class="simplenav">
-                                 &copy; <?=date('Y');?>. All Rights Reserved.
-                            </p>
-          </div>
-          <div class="col-md-7">
-            <div class=" pull-right social-icons ">
-                            <a href="https://www.facebook.com/"><i class="fa fa-facebook fa-2"></i></a>
-                                <a href="https://twitter.com/"><i class="fa fa-twitter fa-2"></i></a>
-                                <a href="http://googleplus.com//"><i class="fa fa-google-plus fa-2"></i></a>
-                                <a href="http://youtube.com//"><i class="fa fa-youtube fa-2"></i></a> 
-                                <!--a href="http://instagram.com//"><i class="fa fa-instagram fa-2"></i></a-->
-                                <a href="http://linkedin.com//"><i class="fa fa-linkedin-square fa-2"></i></a>
-            
-                              </div>
-                              </div> 
-          </div>
-                              
-        </footer>
-        <!-- FOOTER SECTION -->
-    <p id="back-top" title="Back to Top">
-      <a href="#page-top" class="cd-top btnSwing"><i class="fa fa-angle-up fa-2x"></i></a>
-    </p>
-   <!-- /Footer -->
 </body>
 </html>
