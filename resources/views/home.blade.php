@@ -199,7 +199,7 @@
                         <div class="widget-body">
                             <p class="text">
                             <ul>
-                            <li><a href="#">FAQ</a></li>
+                            <li><a href="faq">FAQ</a></li>
                             <li><a href="#">Privacy Policy</a></li>
                             <li><a href="#">Terms of use</a></li>
                             <li><a href="#">Help</a></li>

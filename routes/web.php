@@ -34,3 +34,6 @@ Route::get('administrator', function () {
     return view('administrator.panel');
 });
 
+Route::get('faq', function () {
+    return view('faq');
+});

@@ -10,7 +10,7 @@
             <div class="form-section ">
                 <div class="form-group ">
                     <label for="email_or_mob">Email or Mobile Number</label>
-                    <input class="form-control " placeholder="Enter mail  or 070000000" name="email_or_id" type="text" id="email_or_mob">
+                    <input class="form-control "  placeholder="Enter mail  or 070000000" name="email_or_id" type="text" id="email_or_mob">
                 </div>
              <div class="form-group  ">
                     <label for="password">Password</label>

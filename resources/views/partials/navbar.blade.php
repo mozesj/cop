@@ -31,7 +31,7 @@
                         <a class="page-scroll" href="#contact">Contact Us</a>
                     </li>
                      <li>
-                        <a class="page-scroll" href="index.php/login">Login</a>
+                        <a class="page-scroll" href="index.php/login">Log in</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="index.php/register">Register</a>
