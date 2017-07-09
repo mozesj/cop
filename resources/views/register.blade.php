@@ -305,7 +305,7 @@ function show2(){
     <label  >Household Type </label>
     <select class="form-control">
         <option value="select" selected>--select--</option>
-    <option value="single">Estate</option>
+        <option value="">Estate</option>
         <option value="">Market Center</option>
         <option value="">Apartment</option>
         <option value="">Homestead</option>
