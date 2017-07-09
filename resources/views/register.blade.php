@@ -106,12 +106,13 @@ function show2(){
           </div> 
                             </div>
               </div>
-             <div class="col-lg-8">
-               <label class="checkbox">
-                  <input type="checkbox" required> 
-                     I agree to the <a href="#">Terms of Use</a>
-              </label>                        
-            </div>
+             <div class="col-xs-8">
+          <div class="checkbox icheck">
+            <label>
+              <input type="checkbox"> I agree to the <a href="#">Terms of Use</a>
+            </label>
+          </div>
+        </div>
           <button class="btn btn-success nextBtn btn-block " type="button" >Next</button>
         </div>
       </div>

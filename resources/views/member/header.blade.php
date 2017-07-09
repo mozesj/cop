@@ -226,8 +226,8 @@
           <!-- User Account: style can be found in dropdown.less -->
           <li class="dropdown user user-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              <img src="{{ asset('assets/dist/img/user2-160x160.jpg') }}" class="user-image" alt="User Image">
-              <span class="hidden-xs"> Fred Mancini </span>
+             Welcome,
+              <span class="hidden-xs">Mancini </span>
             </a>
             <ul class="dropdown-menu">
                <!-- User image -->
@@ -237,21 +237,21 @@
                 <p>
                   Fred Mancini - Web Developer
                   <small>Member since Nov. 2012</small>
-                  <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
+                 <i class="fa fa-circle text-success"></i> Online
                 </p>
 
               </li>
               <!-- Menu Body -->
               <li class="user-body">
-                <div class="row">
+                <div class="row social-icons">
                   <div class="col-xs-4 text-center">
-                    <a href="#">Followers</a>
+                      <a href="https://www.facebook.com/"><i class="fa fa-facebook fa-2"></i></a>
                   </div>
                   <div class="col-xs-4 text-center">
-                    <a href="#">Members</a>
+                    <a href="https://twitter.com/"><i class="fa fa-twitter fa-2"></i></a>
                   </div>
                   <div class="col-xs-4 text-center">
-                    <a href="#">Friends</a>
+                    <a href="http://googleplus.com//"><i class="fa fa-google-plus fa-2"></i></a>
                   </div>
                 </div>
                 <!-- /.row -->
@@ -259,10 +259,10 @@
               <!-- Menu Footer-->
               <li class="user-footer">
                 <div class="pull-left">
-                  <a href="#" class="btn btn-default btn-flat">Account</a>
+                  <a href="{{url('/account')}}" class="btn btn-default btn-flat">Account</a>
                 </div>
                 <div class="pull-right">
-                  <a href="{{url('/logout')}}" class="btn btn-default btn-flat">Sign out</a>
+                  <a href="{{url('/login')}}" class="btn btn-default btn-flat">Sign out</a>
                 </div>
               </li>
             </ul>

@@ -41,3 +41,7 @@ Route::get('faq', function () {
 Route::get('help', function () {
     return view('help');
 });
+
+Route::get('account', function () {
+    return view('account');
+});

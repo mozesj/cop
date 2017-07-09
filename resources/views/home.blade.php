@@ -5,7 +5,7 @@
 <body data-spy="scroll" data-target=".navbar" data-offset="60" id="page-top">
 
 <!-- intro -->
-<div class="/">
+<div class="#">
  <div id="cd-intro-background">
            <div class="col-sm-12 col-md-12">
             <div id="intro">
@@ -151,7 +151,7 @@
                         <p>Date : 21/09/2017</p>
                         <p>Venue : KABARAK UNIVERSITY MAIN CAMPUS</p>
                         <p>Time : 08:00 AM - 5:00 PM</p>
-                        <p>Entrance Charges : Free </p>
+                        <p>Charges : Free </p>
                     </div>
             </div>
        
@@ -202,7 +202,7 @@
                             <li><a href="faq">FAQ</a></li>
                             <li><a href="#">Privacy Policy</a></li>
                             <li><a href="#">Terms of use</a></li>
-                            <li><a href="#">Help</a></li>
+                            <li><a href="help">Help</a></li>
                             </ul>
                             </p>    
                         </div>
@@ -247,7 +247,7 @@
         <div class="row">
           <div class="col-md-4">
             <p class="simplenav">
-                                 &copy; <?=date('Y');?>. All Rights Reserved.
+                                 &copy; <?=date('Y');?> . All Rights Reserved.
                             </p>
           </div>
           <div class="col-md-7">

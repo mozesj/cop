@@ -12,17 +12,37 @@
             <i class="fa fa-home"></i> <span>Dashboard</span>
           </a>
         </li>
-         <li>
-          <a href="forms/reminder.blade.php">
-            <i class="fa fa-clock-o"></i> <span>Reminder</span>
+         <li class="treeview">
+          <a href="#">
+            <i class="fa fa-edit"></i> <span>Applications</span>
             <span class="pull-right-container">
-              
+              <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
+          <ul class="treeview-menu">
+            <li><a href="#">Burial Permit</a></li>
+            <li><a href="#">Conflict Resolution</a></li>
+            <li><a href="#">Event Permit</a></li>
+            <li><a href="#">Witness Protection</a></li>
+            
+          </ul>
+        </li>
+         <li class="treeview">
+          <a href="#">
+          <i class="fa fa-calendar-check-o"></i> <span>Calender</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+          <li><a href="forms/reminder.blade.php">  <i class="fa fa-clock-o"></i>  Reminder</a>
+          <li><a href="forms/contact.blade.php">  <i class="fa fa-tablet"></i>  Diary  Book</a>
+            
+          </ul>
         </li>
         <li>
-          <a href="forms/contact.blade.php">
-            <i class="fa fa-clock-o"></i> <span>Diary  Book</span>
+          <a href="#">
+            <i class="fa fa-laptop"></i> <span>Logs</span>
             <span class="pull-right-container">
               
             </span>
@@ -113,7 +133,7 @@
         </div>
       </form>
       <!-- /.search form -->
-            <li><a href="forms/appeal.blade.php"><i class="fa fa-circle-o"></i>Make Appeal</a></li>
+            <li><a href="forms/appeal.blade.php">Make Appeal</a></li>
            
             
           </ul>
@@ -127,9 +147,9 @@
           </a>
           <ul class="treeview-menu">
          
-           <li><a href="#"><i class="fa fa-power-off"></i>  Item</a></li>
-            <li><a href="#"><i class="fa fa-power-off"></i> Missing Person</a></li>
-            <li><a href="#"><i class="fa fa-power-off"></i>  Most Wanted</a></li>
+           <li><a href="#">Item</a></li>
+            <li><a href="#">Missing Person</a></li>
+            <li><a href="#">Most Wanted</a></li>
            
             
           </ul>
@@ -142,29 +162,6 @@
             </span>
           </a>
         </li>
-        <li class="treeview">
-          <a href="#">
-            <i class="fa fa-group"></i> <span>Membership</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
-          </a>
-          <ul class="treeview-menu">
-          <!-- search form -->
-      <form action="#" method="get" class="sidebar-form">
-        <div class="input-group">
-          <input type="text" name="q" class="form-control" placeholder="Search...">
-              <span class="input-group-btn">
-                <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i>
-                </button>
-              </span>
-        </div>
-      </form>
-      <!-- /.search form -->
-           
-            <li><a href="#"><i class="fa fa-circle-o"></i> Join Members</a></li> 
-          </ul>
-        </li> 
         
         <li class="treeview">
           <a href="#">
@@ -209,18 +206,7 @@
       <!-- /.search form -->
            
           </ul>
-        </li>
-          <li class="treeview">
-          <a href="#">
-            <i class="fa fa-group"></i> <span>Generate Report</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
-          </a>
-          <ul class="treeview-menu">
-            
-          </ul>
-        </li>      
+        </li>     
         </ul>
     </section>
     <!-- /.sidebar -->

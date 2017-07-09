@@ -6,9 +6,7 @@
     <meta charset="UTF-8">
     <title>{{$title or 'ecp'}}</title>
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
-    <!-- CSRF Token -->
-    <meta name="csrf-token" content="{{ csrf_token() }}">
-@include('partials.topbar')
+     @include('partials.topbar')
 </head>
 <body class="skin-blue ">
 <div class="wrapper">
@@ -23,7 +21,7 @@
         <!-- Content Header (Page header) -->
         <section class="content-header">
             <h1>
-               Calender
+            Community Forum
             </h1>
             <!-- You can dynamically generate breadcrumbs here -->
             <ol class="breadcrumb">
@@ -34,18 +32,134 @@
         <!-- Main content -->
         <section class="content">
             <!-- Your Page Content Here -->
-            @yield('content')
+            <!--@yield('content')
             <!-- /.col -->
-        <div class="col-md-12">
-          <div class="box box-primary">
+       
+         
             <div class="box-body no-padding">
-              <!-- THE CALENDAR -->
-              <div id="calendar"></div>
+              <div class="col-md-6">
+          <!-- Box Comment -->
+          <div class="box box-widget">
+            <div class="box-header with-border">
+              <div class="user-block">
+                <img class="img-circle" src="{{ asset('assets/dist/img/user2-160x160.jpg') }}" alt="User Image">
+                <span class="username"><a href="#">Jonathan Burke Jr.</a></span>
+                <span class="description">Shared publicly - 7:30 PM Today</span>
+              </div>
+              <!-- /.user-block -->
+              <div class="box-tools">
+                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                </button>
+                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+              </div>
+              <!-- /.box-tools -->
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body social-icons">
+              <img class="img-responsive pad" src="{{ asset('assets/bootstrap/img/kenyaflag.gif') }}" alt="Photo" style="height: 70px">
+
+              <p>Kenya moja</p>
+              <button type="button" class="btn btn-default btn-xs"><i class="fa fa-facebook fa-"></i> Share</button>
+               <button type="button" class="btn btn-default btn-xs"><i class="fa fa-twitter fa-2"></i> Share</button>
+              <button type="button" class="btn btn-default btn-xs"><i class="fa fa-thumbs-o-up"></i> Like</button>
+              <span class="pull-right text-muted">127 likes - 3 comments</span>
+            </div>
+            <!-- /.box-body -->
+            <div class="box-footer box-comments">
+              <div class="box-comment">
+                <!-- User image -->
+                <img class="img-circle img-sm" src="{{ asset('assets/dist/img/user2-160x160.jpg') }}" alt="User Image">
+
+                <div class="comment-text">
+                      <span class="username">
+                        Maria Gonzales
+                        <span class="text-muted pull-right">8:03 PM Today</span>
+                      </span><!-- /.username -->
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when looking at its layout.
+                </div>
+                <!-- /.comment-text -->
+              </div>
+              <!-- /.box-comment -->
+              <div class="box-comment">
+                <!-- User image -->
+                <img class="img-circle img-sm" src="{{ asset('assets/dist/img/user2-160x160.jpg') }}" alt="User Image">
+
+                <div class="comment-text">
+                      <span class="username">
+                        Luna Stark
+                        <span class="text-muted pull-right">8:03 PM Today</span>
+                      </span><!-- /.username -->
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when looking at its layout.
+                </div>
+                <!-- /.comment-text -->
+              </div>
+              <!-- /.box-comment -->
+            </div>
+            <!-- /.box-footer -->
+            <div class="box-footer">
+              <form action="#" method="post">
+                <img class="img-circle img-sm" src="{{ asset('assets/dist/img/user2-160x160.jpg') }}" alt="User Image">
+                <!-- .img-push is used to add margin to elements next to floating images -->
+                <div class="img-push">
+                  <input type="text" class="form-control input-sm" placeholder="Press enter to post comment">
+                </div>
+              </form>
+            </div>
+            <!-- /.box-footer -->
+          </div>
+          <!-- /.box -->
+        </div>
+         <div class="col-md-6">
+          <!-- Box Comment -->
+          <div class="box box-widget">
+            <div class="box-header with-border">
+              <div class="user-block" style="height: 50px;font-weight: bold;">
+              <span class="content-header"> <marquee> <h1>Advertise Here</h1></marquee></span>
+               
+              </div>
+              <!-- /.user-block -->
+              <div class="box-tools">
+                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                </button>
+                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+              </div>
+              <!-- /.box-tools -->
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+            <div class="medium-4 columns wow slideInRight" data-wow-duration="2s">
+                   <div class="partners">
+                       <img  src="{{ asset('assets/bootstrap/img/partners/africastalking.png') }}" width = "45%" alt="africastalking logo" />
+                 <img src="{{ asset('assets/bootstrap/img/partners/afrilabs.png') }}" width="50%" alt="afrilabs logo" />
+               </div>
+            </div><br>
+            <div class="medium-4 columns wow slideInRight" data-wow-duration="2s">
+                   <div class="partners">
+                       <img  src="{{ asset('assets/bootstrap/img/payment/airtel.jpeg') }}" width = "45%" alt="africastalking logo" />
+                 <img src="{{ asset('assets/bootstrap/img/payment/saf.jpeg') }}" width="50%" alt="afrilabs logo" />
+               </div>
+            </div><br>
+             <div class="medium-4 columns wow slideInRight" data-wow-duration="2s">
+                   <div class="partners">
+                       <img  src="{{ asset('assets/bootstrap/img/partners/lakehub.png') }}" width = "45%" alt="africastalking logo" />
+                 <img src="{{ asset('assets/bootstrap/img/ecp-logo.png') }}" width="50%" alt="afrilabs logo" />
+               </div>
+            </div>
+           
+
+            </div>  
+          
             </div>
             <!-- /.box-body -->
           </div>
+          <!-- /.box -->
+            </div>
+            <!-- /.box-body -->
+    
           <!-- /. box -->
-        </div>
+       
         <!-- /.col -->
         </section><!-- /.content -->
     </div><!-- /.content-wrapper -->
