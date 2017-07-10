@@ -1,7 +1,14 @@
-@extends('partials.topbar')
+
 @extends('partials.navbar')
 @yield('content')
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{$title or 'ecp'}}</title>
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
+     @include('partials.topbar')
+</head>
 <body data-spy="scroll" data-target=".navbar" data-offset="60" id="page-top">
 
 <!-- intro -->
@@ -269,5 +276,7 @@
       <a href="#page-top" class="cd-top btnSwing"><i class="fa fa-angle-up fa-2x"></i></a>
     </p>
    <!-- /Footer -->
+   @include('includes.js')
+   @yield('js')
    </body>
-  
+  </html>

@@ -17,6 +17,14 @@
 	}
 		var contextPath = getAbsolutePath();
 	</script>
+    <script >
+      function show1(){
+             document.getElementById('div1').style.display ='none';
+                      }
+      function show2(){
+      document.getElementById('div1').style.display = 'block';
+                      }  
+    </script>
     <!-- Bootstrap 3.3.5 -->
     <script src="{{ asset('assets/bootstrap/js/bootstrap.min.js') }}"></script>
     <!-- Morris.js charts -->

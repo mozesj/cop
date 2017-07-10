@@ -37,13 +37,71 @@
        
          
             <div class="box-body no-padding">
+              <div class="row">
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="info-box">
+            <span class="info-box-icon bg-aqua"><i class="fa fa-envelope-o"></i></span>
+
+            <div class="info-box-content">
+              <span class="info-box-text">Messages</span>
+              <span class="info-box-number">1,410</span>
+            </div>
+            <!-- /.info-box-content -->
+          </div>
+          <!-- /.info-box -->
+        </div>
+        <!-- /.col -->
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="info-box">
+            <span class="info-box-icon bg-green"><i class="fa fa-flag-o"></i></span>
+
+            <div class="info-box-content">
+              <span class="info-box-text">Logs</span>
+              <span class="info-box-number">410</span>
+            </div>
+            <!-- /.info-box-content -->
+          </div>
+          <!-- /.info-box -->
+        </div>
+        <!-- /.col -->
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="info-box">
+            <span class="info-box-icon bg-yellow"><i class="fa fa-calendar"></i></span>
+
+            <div class="info-box-content">
+              <span class="info-box-text">Events</span>
+              <span class="info-box-number">13,648</span>
+            </div>
+            <!-- /.info-box-content -->
+          </div>
+          <!-- /.info-box -->
+        </div>
+        <!-- /.col -->
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="info-box">
+            <span class="info-box-icon bg-red"><i class="fa fa-star-o"></i></span>
+
+            <div class="info-box-content">
+              <span class="info-box-text">Notices</span>
+              <span class="info-box-number">93,139</span>
+            </div>
+            <!-- /.info-box-content -->
+          </div>
+          <!-- /.info-box -->
+        </div>
+        <!-- /.col -->
+      </div>
+      <!-- /.row -->
+
+      <!-- =========================================================== -->
               <div class="col-md-6">
           <!-- Box Comment -->
           <div class="box box-widget">
             <div class="box-header with-border">
               <div class="user-block">
-                <img class="img-circle" src="{{ asset('assets/dist/img/user2-160x160.jpg') }}" alt="User Image">
-                <span class="username"><a href="#">Jonathan Burke Jr.</a></span>
+                <img class="img-responsive pad" src="{{ asset('assets/bootstrap/img/kenyaflag.gif') }}" alt="Photo" style="height: 70px ; width: 80px">
+
+                <span class="username"><a href="#">Kenya moja</a></span>
                 <span class="description">Shared publicly - 7:30 PM Today</span>
               </div>
               <!-- /.user-block -->
@@ -56,9 +114,6 @@
             </div>
             <!-- /.box-header -->
             <div class="box-body social-icons">
-              <img class="img-responsive pad" src="{{ asset('assets/bootstrap/img/kenyaflag.gif') }}" alt="Photo" style="height: 70px">
-
-              <p>Kenya moja</p>
               <button type="button" class="btn btn-default btn-xs"><i class="fa fa-facebook fa-"></i> Share</button>
                <button type="button" class="btn btn-default btn-xs"><i class="fa fa-twitter fa-2"></i> Share</button>
               <button type="button" class="btn btn-default btn-xs"><i class="fa fa-thumbs-o-up"></i> Like</button>
