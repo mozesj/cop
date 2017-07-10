@@ -40,11 +40,11 @@
               <div class="row">
         <div class="col-md-3 col-sm-6 col-xs-12">
           <div class="info-box">
-            <span class="info-box-icon bg-aqua"><i class="fa fa-envelope-o"></i></span>
+            <span class="info-box-icon bg-aqua"><i class="fa fa-clock-o"></i></span>
 
             <div class="info-box-content">
-              <span class="info-box-text">Messages</span>
-              <span class="info-box-number">1,410</span>
+              <span class="info-box-text">Reminders</span>
+              <span class="info-box-number">0</span>
             </div>
             <!-- /.info-box-content -->
           </div>
@@ -53,11 +53,11 @@
         <!-- /.col -->
         <div class="col-md-3 col-sm-6 col-xs-12">
           <div class="info-box">
-            <span class="info-box-icon bg-green"><i class="fa fa-flag-o"></i></span>
+            <span class="info-box-icon bg-green"><i class="fa fa-laptop"></i></span>
 
             <div class="info-box-content">
               <span class="info-box-text">Logs</span>
-              <span class="info-box-number">410</span>
+              <span class="info-box-number">0</span>
             </div>
             <!-- /.info-box-content -->
           </div>
@@ -70,7 +70,7 @@
 
             <div class="info-box-content">
               <span class="info-box-text">Events</span>
-              <span class="info-box-number">13,648</span>
+              <span class="info-box-number">0</span>
             </div>
             <!-- /.info-box-content -->
           </div>
@@ -79,11 +79,11 @@
         <!-- /.col -->
         <div class="col-md-3 col-sm-6 col-xs-12">
           <div class="info-box">
-            <span class="info-box-icon bg-red"><i class="fa fa-star-o"></i></span>
+            <span class="info-box-icon bg-red"><i class="fa fa-bullhorn"></i></span>
 
             <div class="info-box-content">
               <span class="info-box-text">Notices</span>
-              <span class="info-box-number">93,139</span>
+              <span class="info-box-number">0</span>
             </div>
             <!-- /.info-box-content -->
           </div>

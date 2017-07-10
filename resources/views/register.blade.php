@@ -8,12 +8,13 @@
         <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
          @include('partials.topbar')
     </head>
-    <body>
+    <body style="margin-top:40px;">
       <form  method="POST" action="" accept-charset="UTF-8" class="default-form" data-role="form">
        <div class="col-md-6 col-md-offset-3">
              <div class="panel panel-default">
                  <div class="panel-heading">
-                 <div class="stepwizard col-md-offset-3" >
+            <div class="container">
+                 <div class="stepwizard " >
                            <div class="stepwizard-row setup-panel">
                             <div class="stepwizard-step">
                               <a href="#step-1" type="button" class="btn btn-primary btn-circle">1</a>
@@ -32,6 +33,7 @@
                               <p>Household</p>
                             </div>
                           </div>   
+            </div>
             </div>
                  </div>
         <div class="panel-body">         
@@ -78,7 +80,7 @@
                   </div>&nbsp;
                   
                  
-              <div  id="div1" class="" >
+              <div  id="div1" class="" > 
                 <div class="form-group" >
                 <label >Special Need Category</label>
                <select class="form-control">
@@ -128,8 +130,7 @@
                         <label class="radio-inline"><input type="radio" name="optradio">Employed</label>
                         <label class="radio-inline"><input type="radio" name="optradio">Self-Employed</label>
                         <label class="radio-inline"><input type="radio" name="optradio">Unemployed</label>
-                        <label class="radio-inline"><input type="radio" name="optradio">Volunteer</label>
-                         <label class="radio-inline"><input type="radio" name="optradio">Internship</label>
+                        <label class="radio-inline"><input type="radio" name="optradio">Volunteer / Internship</label>
                     </label>
                 </div><br>
                  <div class="form-group">
@@ -209,10 +210,18 @@
               </div> 
                                 </div>
                   </div>
-              <div class="form-group">
+                    <div class="form-bottom">
+                                <div class="row">
+                                   <div class="form-group col-md-6 col-sm-6">
+                <label class="control-label">Fax  Number</label>
+                <input  maxlength="100" type="text" required="required" class="form-control" placeholder="Enter Fax Numbers"  />
+              </div>
+              <div class="form-group col-md-6 col-sm-6">
                 <label class="control-label">Website URL</label>
                 <input maxlength="100" type="text" required="required" class="form-control" placeholder="Enter Website " />
-              </div>
+              </div> 
+                                </div>
+                  </div>
               <button class="btn btn-success nextBtn btn-block" type="button" >Continue</button>
             </div>
         

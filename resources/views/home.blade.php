@@ -153,7 +153,9 @@
         <div class="hline"></div><br>
          <div class="well">
                       <div class="well" >
-                        <p>Theme : 7TH  ANNUAL INTERNATIONAL CONFERENCE</p>
+                        <p>Category : Technology</p>
+                         <p>County : Nakuru</p>
+                        <p>Tittlee : 7TH  ANNUAL INTERNATIONAL CONFERENCE</p>
                         <p>Description : RESEARCH, INNOVATION AND KNOWLEDGE TRANSLATION FOR   COMMUNITY TRANSFORMATION</p>
                         <p>Date : 21/09/2017</p>
                         <p>Venue : KABARAK UNIVERSITY MAIN CAMPUS</p>
@@ -215,33 +217,44 @@
                         </div>
                     </div>
 
-                    <div class="col-md-6 widget">
-                        <h1 class="widget-title">Send a message</h1>
+                    <div class="col-md-3 widget">
+                        <h1 class="widget-title text-center">FOLLOW US</h1>
                         <div class="widget-body">
-                            <div class="status alert alert-success" style="display: none"></div>
-                            <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="sendemail.blade.php">
-                                <div class="form-group">
-                                    <input type="text" name="name" class="form-control" required="required" 
-                                    value=" Name *" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
-                                </div>
-                                <div class="form-group">
-                                    <input type="email" name="email" class="form-control" required="required" value="Email *"
-                                    value=" Name *" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
-                                </div>
-                                <div class="form-group">
-                                    <input type="text"  name="name" class="form-control" required="required" value="Subject *"
-                                    onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
-                                </div>
-                                
-                                <div class="form-group">
-                                    <textarea name="message" id="message" required="required" class="form-control" rows="4" placeholder="Type your message here ...." ></textarea >
-                                </div>  
-                                                  
-                                <div class="col-sm-12">
-                                    <button type="submit" class="btn btn-primary pull-right">Send Message
-                                    &nbsp;&nbsp; <i class="fa fa-envelope"></i></button>
-                                </div>
-                            </form>        
+                           <div class="social-icons ">
+                            <a href="https://www.facebook.com/"><i class="fa fa-facebook fa-2"></i></a>
+                                <a href="https://twitter.com/"><i class="fa fa-twitter fa-2"></i></a>
+                                <a href="http://googleplus.com//"><i class="fa fa-google-plus fa-2"></i></a>
+                                <a href="http://youtube.com//"><i class="fa fa-youtube fa-2"></i></a> 
+                                <!--a href="http://instagram.com//"><i class="fa fa-instagram fa-2"></i></a-->
+                                <a href="http://linkedin.com//"><i class="fa fa-linkedin-square fa-2"></i></a>
+            
+                              </div> 
+                           
+                        </div>
+                        </div>
+                         <div class="col-md-3 widget">
+                        <h1 class="widget-title text-center">NEWS </h1>
+                        <div class="widget-body">
+                           <div class="">
+                            
+<section id="twitter">
+  <div class="row collapse" data-equalizer data-equalizer-mq="medium-up">
+    <div class="small-12 medium-4 medium-push-8 columns" data-equalizer-watch>
+      <a class="twitter-timeline"
+        href="https://twitter.com/LakeHub"
+        data-tweet-limit="4"
+        data-chrome="noscrollbar"
+        height="200px"
+        data-widget-id="684129976782852098">Tweets by @LakeHub
+      </a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    </div>
+  </div>
+
+</section>
+
+                            </div> 
+                           
                         </div>
                         </div>
                     </div>
@@ -250,25 +263,12 @@
             </div>
       
         </div>
-        <footer class="container-fluid ">
-        <div class="row">
-          <div class="col-md-4">
-            <p class="simplenav">
-                                 &copy; <?=date('Y');?> . All Rights Reserved.
-                            </p>
-          </div>
-          <div class="col-md-7">
-            <div class=" pull-right social-icons ">
-                            <a href="https://www.facebook.com/"><i class="fa fa-facebook fa-2"></i></a>
-                                <a href="https://twitter.com/"><i class="fa fa-twitter fa-2"></i></a>
-                                <a href="http://googleplus.com//"><i class="fa fa-google-plus fa-2"></i></a>
-                                <a href="http://youtube.com//"><i class="fa fa-youtube fa-2"></i></a> 
-                                <!--a href="http://instagram.com//"><i class="fa fa-instagram fa-2"></i></a-->
-                                <a href="http://linkedin.com//"><i class="fa fa-linkedin-square fa-2"></i></a>
-            
-                              </div>
-                              </div> 
-          </div>
+        <footer class="container-fluid  text-center">
+        
+             <p class="simplenav">
+              Copyright  &copy; <?=date('Y');?> . All Rights Reserved.
+            </p>
+      
                               
         </footer>
         <!-- FOOTER SECTION -->

@@ -1,6 +1,13 @@
-@extends('partials.topbar')
-
-@yield('content')
+ @yield('content')
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>{{$title or 'ecp'}}</title>
+        <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
+         @include('partials.topbar')
+    </head>
+    <body style="margin-top:40px;">
 
   <form  method="POST" action="" accept-charset="UTF-8" class="default-form" data-role="form">
    <div class="col-md-4 col-md-offset-4">
@@ -42,6 +49,9 @@
    </div>
   
 </form>
- 
+  @include('includes.js')
+       @yield('js')
+    </body>
+    </html>  
                    
  
