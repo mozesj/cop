@@ -9,7 +9,7 @@
          @include('partials.topbar')
     </head>
     <body style="margin-top:40px;">
-      <form  method="POST" action="" accept-charset="UTF-8" class="default-form" data-role="form">
+      <form  method="POST" action="" accept-charset="UTF-8" class="default-form" data-role="form" class="registration-form">
        <div class="col-md-6 col-md-offset-3">
              <div class="panel panel-default">
                  <div class="panel-heading">
@@ -118,7 +118,7 @@
                 </label>
               </div>
             </div>
-              <button class="btn btn-success nextBtn btn-block " type="button" >Next</button>
+              <button class="btn btn-success nextBtn btn-block " type="button" value="Next" name="next">Next</button>
             </div>
         </div>
                 <div class="row setup-content" id="step-2">

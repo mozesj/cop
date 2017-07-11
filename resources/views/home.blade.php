@@ -215,15 +215,8 @@
                             <li><a href="help">Help</a></li>
                             </ul>
                             </p> 
-                            </address>
-                            <div class="contact-address">
-                            <h1 class="widget-title">MAP</h1>
-                            <address>
-                            
-                            
-                            </address>
-                            </div>
-                              
+                          </address>
+                           
                         </div>
                     </div>
 
