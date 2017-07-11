@@ -9,8 +9,8 @@
     </head>
     <body style="margin-top:40px;">
 
-  <form  method="POST" action="" accept-charset="UTF-8" class="default-form" data-role="form">
-   <div class="col-md-4 col-md-offset-4">
+  <form  method="POST" action="" accept-charset="UTF-8" class="default-form" data-role="form" class="login">
+   <div class="col-md-4 col-md-offset-4 ">
          <div class="panel panel-default">
              <div class="panel-heading text-center"><h2>Login</h2></div>
                 <div class="panel-body">         

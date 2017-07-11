@@ -285,7 +285,7 @@ color:#777777;
 #back-top {
     position: fixed;
     z-index: 1000;
-    bottom: 20px;
+    bottom: 10px;
     right: 50px;
 }
 #back-top a {
@@ -344,7 +344,7 @@ color:#777777;
 ************************************/
 .registration-form 
 {
-  
+
 }
 
 
@@ -352,6 +352,5 @@ color:#777777;
 
 
 /***********************************
-******special need radio button*****
+          ******login*****
 ************************************/
-

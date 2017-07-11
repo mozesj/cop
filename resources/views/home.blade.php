@@ -33,7 +33,7 @@
  <h3 class="grey">Welcome to <span class="span">ecp </span></h3>
             <div class="row">
                 
-<p class="text-center">ecp is platform that connects community members,faith-based organizations (FBO),community-based organizations (CBOs)<br>,Non-Governmental Organizations (NGOs) and Government Policing Agencies(GPAs)<br>to share information and empower the community at large.
+<p class="text-center">ecp is platform that connects community members,faith-based organizations (FBO),community-based organizations (CBOs)<br>,Non-Governmental Organizations (NGOs) and Government Policing Agencies(GPAs)<br>to share information and empower the society at large.
 </p>
                 <!--reasons to use ecp-->
 <h3 class="#">Why use <span class="span">ecp</span></h3>
@@ -137,7 +137,7 @@
                         <p>Gender: Female</p>
                         <p>Area Name : Runda</p>
                         <p>Description : </p>
-                        <p>Contact: 0722 145 098</p>
+                        <p>Contact: 0704 207 449</p>
                     </div>
             </div>
         
@@ -179,7 +179,7 @@
             <div class="container-fluid">
                 <div class="row">
                     
-                    <div class="col-md-3 widget">
+                    <div class="col-md-4 widget">
                       <h1 class="widget-title">CONTACT</h1>
                         <div class="widget-body">
                             <address>
@@ -220,7 +220,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-6 widget">
+                    <div class="col-md-5 widget">
                         <h1 class="widget-title">Send a message</h1>
                         <div class="widget-body">
                             <div class="status alert alert-success" style="display: none"></div>
@@ -244,7 +244,7 @@
                                                   
                                 <div class="col-sm-12">
                                     <button type="submit" class="btn btn-primary pull-right">Send Message
-                                    &nbsp;&nbsp; <i class="fa fa-envelope"></i></button>
+                                   </button>
                                 </div>
                             </form>        
                         </div>
