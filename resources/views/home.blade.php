@@ -1,20 +1,17 @@
+@extends('layouts.master')
+
+@extends('partials.navbar')
 
 @yield('content')
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="connect | share | empower">
-    <meta name="author" content="machini technologies">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="icon" type="image/png" sizes="200x200" href="assets/bootstrap/img/ecp.png">
-    <title>{{$title or 'ecp'}}</title>
-    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
-     @include('partials.topbar')
-</head>
-<body data-spy="scroll" data-target=".navbar" data-offset="60" id="page-top">
-@extends('partials.navbar')
+
+@section('title')
+ 
+Home
+
+@endsection
+
+@section('content')
+
 <!-- intro -->
 <div class="#home">
  <div id="cd-intro-background">
@@ -32,9 +29,10 @@
           <div class="text-center"><a href="/register" class="btn btn-success ">Register Now </a></div>
       </div>
 </div>
-<!--about ecp-->
-<section id="about">
- <h3 class="grey">Welcome to <span class="span">ecp </span></h3>
+   <!-- ABOUT SECTION -->
+    <section id="about"  >
+        
+         <h3 class="grey">Welcome to <span class="span">ecp </span></h3>
             <div class="row">
                 
 <p class="text-center">ecp is platform that connects community members,faith-based organizations (FBO),community-based organizations (CBOs)<br>,Non-Governmental Organizations (NGOs) and Government Policing Agencies(GPAs)<br>to share information and empower the society at large.
@@ -72,11 +70,12 @@
             </div> 
             </div>
             </div>
-       
-</section>
-<!-- services-->
-<div id="services">
-<h3 > Services</h3>
+
+    </section> <!-- /About -->
+
+    <!-- SERVICES SECTION -->
+    <section id="services">
+      <h3 > Services</h3>
    <div class="row text-center">
    <div class="col-md-4 col-sm-6 ">  
 <img src="assets/bootstrap/img/taxi.jpg">
@@ -101,11 +100,11 @@
 <p><a href="index.php/login" class="btn btn-default">Get Service </a></p>
  </div></div>
  </div>
-</div>
-<!-- end services-->
+    </section>  <!-- /Services -->
 
-        <div id="resources">
-           <div class="jumbotron text-center" >  
+    <!-- RESOURCES SECTION -->
+    <section id="resources" >
+        <div class="jumbotron text-center" >  
             <h3>Resources</h3><br>
             <div class="row">
                 <div class="col-sm-4">
@@ -174,11 +173,12 @@
                 </div>
             </div>
         </div>
-        </div>
-<!-- end resources-->
-<!-- contact us-->
-<div id="contact">
-   <div class="footer1">
+    </section> <!-- /Resources -->
+
+  
+   <!-- CONTACT SECTION -->
+   <section id="contact">
+       <div class="footer1">
    <h3 class="grey">Let's get Intouch</h3>
             <div class="container-fluid">
                 <div class="row">
@@ -258,9 +258,8 @@
 
                 </div> <!-- /row of widgets -->
             </div>
-      
-        </div>
-       <footer class="container-fluid ">
+   </section> <!-- /Contact -->
+   <footer class="container-fluid">
         <div class="row">
           <div class="col-md-4">
             <p class="simplenav">
@@ -286,7 +285,5 @@
       <a href="#page-top" class="cd-top btnSwing"><i class="fa fa-angle-up fa-2x"></i></a>
     </p>
    <!-- /Footer -->
-   @include('includes.js')
-   @yield('js')
-   </body>
-  </html>
+@endsection
+

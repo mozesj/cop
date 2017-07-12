@@ -7,16 +7,15 @@
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
                <a class="logo" href="./">
-    <img src="assets/bootstrap/img/ecp.png"  alt="ecp" style="height: 70px; width: 80px;">
-  </a>
+                    <img src="assets/bootstrap/img/ecp.png"  alt="ecp" style="height: 70px; width: 80px;">
+                </a>
             </div>
-
             <!-- Collect the nav links, forms, and other content for toggling -->
          
 
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1 ">
                 <ul class="nav navbar-nav navbar-right">
-                    <li>
+                    <li >
                         <a class="page-scroll" href="./">Home</a>
                     </li>
                     <li>
@@ -32,6 +31,7 @@
                     <li>
                         <a class="page-scroll" href="#contact">Contact Us</a>
                     </li>
+                    
                      <li>
                         <a class="page-scroll" href="index.php/login">Log in</a>
                     </li>
