@@ -1,18 +1,22 @@
 
-@extends('partials.navbar')
 @yield('content')
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="connect | share | empower">
+    <meta name="author" content="machini technologies">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="icon" type="image/png" sizes="200x200" href="assets/bootstrap/img/ecp.png">
     <title>{{$title or 'ecp'}}</title>
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
      @include('partials.topbar')
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="60" id="page-top">
-
+@extends('partials.navbar')
 <!-- intro -->
-<div class="#">
+<div class="#home">
  <div id="cd-intro-background">
            <div class="col-sm-12 col-md-12">
             <div id="intro">
@@ -136,7 +140,7 @@
                         <p>Status: Missing</p>
                         <p>Gender: Female</p>
                         <p>Area Name : Runda</p>
-                        <p>Description : </p>
+                        <p>Description : Height-5 ft , Completion - Black ,Spoken  Language : Kiswahili</p>
                         <p>Contact: 0704 207 449</p>
                     </div>
             </div>

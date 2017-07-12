@@ -10,7 +10,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 @include('partials.topbar')
 </head>
-<body class="skin-blue ">
+<body class="hold-transition skin-blue sidebar-mini">
 <div class="wrapper">
 
  <!-- Main Header -->

@@ -8,7 +8,7 @@
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
      @include('partials.topbar')
 </head>
-<body class="skin-blue ">
+<body class="hold-transition skin-blue sidebar-mini">
 <div class="wrapper">
 
  <!-- Main Header -->

@@ -10,10 +10,13 @@
     </head>
     <body style="margin-top:40px;">
       <form  method="POST" action="" accept-charset="UTF-8" class="default-form" data-role="form" class="registration-form">
+      <!-- progressbar -->
+
        <div class="col-md-6 col-md-offset-3">
              <div class="panel panel-default">
                  <div class="panel-heading">
             <div class="container">
+
                  <div class="stepwizard " >
                            <div class="stepwizard-row setup-panel">
                             <div class="stepwizard-step">
@@ -72,15 +75,13 @@
                   <div class="form-row">
                   <label>
                     <span>Any Special Need </span>
-                     <label class="radio-inline"><input type="radio" name="tab" value="igottwo" onclick="show2();" />
-                    Yes</label>
-                    <label class="radio-inline"><input type="radio" name="tab" value="igotnone" onclick="show1();" />
+                     <label class="radio-inline"><input type="radio" name="tab" value="no" onclick="show1();" />
                      No</label>
+                     <label class="radio-inline"><input type="radio" name="tab" value="yes" onclick="show2();" />
+                    Yes</label>
                   </label>
                   </div>&nbsp;
-                  
-                 
-              <div  id="div1" class="" > 
+              <div  id="div1" class="" > <!-- class="hide" check main.css <special need radio button> plus js.blade line 20-27 -->
                 <div class="form-group" >
                 <label >Special Need Category</label>
                <select class="form-control">
@@ -193,7 +194,7 @@
               </div>
               <div class="form-group col-md-6 col-sm-6">
                  <label class="control-label">Postal Address</label>
-                <textarea required="required" class="form-control" placeholder="Enter your postal address e.g P.O BOX 1000-0100 Kenya" ></textarea>
+                <textarea  required="required" class="form-control" placeholder="Enter your postal address e.g P.O BOX 1000-0100 Kenya" ></textarea>
               </div> 
                                 </div>
                   </div>

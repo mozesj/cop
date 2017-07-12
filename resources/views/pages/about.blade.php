@@ -1,3 +1,14 @@
+ @section('title')
+
+ about
+           
+ @show
+
+@section('content')
+
+    <p>This is my body content.</p>
+
+@endsection
 <div id="about">
  <h3 class="grey">Welcome to <span class="span">ecp </span></h3>
             <div class="row">
