@@ -33,7 +33,7 @@
       </div>
 </div>
 <!--about ecp-->
-<div id="about">
+<section id="about">
  <h3 class="grey">Welcome to <span class="span">ecp </span></h3>
             <div class="row">
                 
@@ -73,7 +73,7 @@
             </div>
             </div>
        
-</div>
+</section>
 <!-- services-->
 <div id="services">
 <h3 > Services</h3>

@@ -4,9 +4,14 @@
     <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>{{$title or 'ecp'}}</title>
-        <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
-         @include('partials.topbar')
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="connect | share | empower">
+    <meta name="author" content="machini technologies">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="icon" type="image/png" sizes="200x200" href="assets/bootstrap/img/ecp.png">
+    <title>{{$title or 'ecp'}}</title>
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
+     @include('partials.topbar')
     </head>
     <body style="margin-top:40px;">
       <form  method="POST" action="" accept-charset="UTF-8" class="default-form" data-role="form" class="registration-form">
