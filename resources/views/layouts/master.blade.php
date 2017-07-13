@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="connect | share | empower">
     <meta name="author" content="machini technologies">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
     <link rel="icon" type="image/png" sizes="200x200" href="assets/bootstrap/img/ecp.png">
     <title>{{$title or 'ecp'}}</title>
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
@@ -20,9 +20,15 @@
     <!-- Main Style -->
     <link rel="stylesheet" href="{{ asset('assets/bootstrap/css/main.css') }}">
 
+
+
     <script src="{{ asset('assets/bootstrap/js/jquery.js') }}"></script>
 
     <script src="{{ asset('assets/bootstrap/js/bootstrap.min.js') }}"></script>
+
+    <script src="{{ asset('assets/bootstrap/js/smoothscroll.js') }}"></script>
+
+    <script src="{{ asset('assets/bootstrap/js/custom.js') }}"></script>
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="60" id="page-top">
 
