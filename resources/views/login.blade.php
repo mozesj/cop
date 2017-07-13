@@ -1,20 +1,20 @@
  @yield('content')
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="connect | share | empower">
     <meta name="author" content="machini technologies">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="icon" type="image/png" sizes="200x200" href="assets/bootstrap/img/ecp.png">
     <title>{{$title or 'ecp'}}</title>
-    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
-     @include('partials.topbar')
-    </head>
-    <body style="margin-top:40px;">
+    
+      @include('partials.topbar')
 
-  <form  method="POST" action="" accept-charset="UTF-8" class="default-form" data-role="form" class="login">
+</head>
+<body style="margin-top:40px;">
+<form  method="POST" action="" accept-charset="UTF-8" class="default-form" data-role="form" class="login">
    <div class="col-md-4 col-md-offset-4 ">
          <div class="panel panel-default">
              <div class="panel-heading text-center"><h2>Login</h2></div>
@@ -54,9 +54,11 @@
    </div>
   
 </form>
-  @include('includes.js')
-       @yield('js')
-    </body>
-    </html>  
+
+</body>
+</html>  
+
+  
+   
                    
  

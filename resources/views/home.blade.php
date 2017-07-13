@@ -6,7 +6,7 @@
 
 @section('title')
  
-Home
+ecp
 
 @endsection
 
